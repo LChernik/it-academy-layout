@@ -1,7 +1,7 @@
 # it-academy-layout
 Completed tasks for it-academy layout course
 
-## Lesson 1:
+## Solved tasks:
 ---
 1. [Diary](https://lchernik.github.io/it-academy-layout/diary/index.html)
 

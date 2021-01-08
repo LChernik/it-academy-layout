@@ -9,3 +9,7 @@ Completed tasks for it-academy layout course
 
 3. [More Tags](https://lchernik.github.io/it-academy-layout/more_tags/index.html)
 
+4.[Childbook](https://lchernik.github.io/it-academy-layout/lesson2/index.html)
+
+5.[Fonts](https://lchernik.github.io/it-academy-layout/lesson3/index.html)
+

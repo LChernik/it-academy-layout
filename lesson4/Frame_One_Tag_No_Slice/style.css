@@ -1,0 +1,11 @@
+
+.container {
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+    border: 42px solid transparent;
+    border-image: url(ramka.png);
+    border-image-slice: 100;
+    border-image-width: 110px;
+    border-image-repeat: round
+}

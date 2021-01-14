@@ -1,0 +1,13 @@
+p {
+    padding: 70px;
+    text-align: center;
+    background: url(src/top_left.gif) 0 0 no-repeat,
+      url(src/top_right.gif) 100% 0% no-repeat,
+      url(src/bottom_right.gif) 100% 100% no-repeat,
+      url(src/bottom_left.gif) 0% 100% no-repeat,
+      url(src/bottom.gif) 50% 100% repeat-x,
+      url(src/top.gif) 50% 0% repeat-x,
+      url(src/left.gif) 0% 50% repeat-y,
+      url(src/right.gif) 100% 50% repeat-y;
+  }
+  

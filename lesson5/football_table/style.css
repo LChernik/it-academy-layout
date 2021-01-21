@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.1vw;
+}
+
+p {
+    font-size: 1.8vw;
+}
+
+li {
+    font-size: 1.8vw;
+}
+
+ul {
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+.header {
+    background-color: #9BCBE2; 
+    padding: 20px; 
+    text-align: center;
+    color: #2E33FF;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.header_title {
+    font-size: 2.8vw;
+}
+
+.navigation {
+    width: 15%;
+    background-color: #F0E68C;
+}
+
+.navigation__title {
+    padding: 15px;
+
+}
+
+.football {
+    vertical-align: top;
+    padding-top: 25px;
+    padding-left: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.football::before {
+    background-image: url(./src/i.png);
+    background-position: right top;
+    background-repeat: no-repeat repeat;
+    background-size: 5%;
+    opacity: 0.4;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+    content: "";
+}
+
+.football__title {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.football__text_image {
+    max-width: 25%;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.balls {
+    background-image: url(./src/i.png);
+    width: 50px;
+}
+
+.footer {
+    background-color: #9BCBE2; 
+    padding: 20px; 
+    text-align: center;
+    color: #2E33FF;
+    text-transform: uppercase;
+    margin: 0;
+}

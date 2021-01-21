@@ -32,3 +32,9 @@ Completed tasks for it-academy layout course
 10. [4.3+ (1 image, 1 tag)](https://lchernik.github.io/it-academy-layout/lesson4/Frame_One_Tag_No_Slice/index.html)
 
 11. [4.4+ pots](https://lchernik.github.io/it-academy-layout/lesson4/4.4%2B%20Pots/index.html)
+
+### Lesson 5
+
+12. [5.1 Div](https://lchernik.github.io/it-academy-layout/lesson5/football_DIV/index.html)
+
+13.[5.2 Table](https://lchernik.github.io/it-academy-layout/lesson5/football_table/index.html)

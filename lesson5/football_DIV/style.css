@@ -47,7 +47,7 @@ li {
 /* columns */
 
 .outter_container {
-    background: url(/src/background-nav-column.png) top left repeat-y;
+    background: url(./src/background-nav-column.png) top left repeat-y;
     background-size: 20%;
 }
 
@@ -64,7 +64,7 @@ li {
     opacity: 0.4;
     z-index: 1;
     content: "";
-    background: url(/src/i.png) right top repeat-y;
+    background: url(./src/i.png) right top repeat-y;
     background-size: 5%;
 }
 

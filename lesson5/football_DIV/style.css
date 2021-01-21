@@ -1,11 +1,6 @@
-body {
-    margin: 0;
-}
+/* general styles */
 
-.header {
-    background-color: #ABD5E7;
-    text-transform: uppercase;
-    color: #2E33FF;
+body {
     margin: 0;
 }
 
@@ -20,16 +15,62 @@ h2 {
     font-size: 2.1vw;
 }
 
+p {
+    position: relative;
+    margin: 0;
+    margin-right: 10px;
+    font-size: 1.8vw;
+    z-index: 20;
+}
+
+ul {
+    padding-left: 20%;
+}
+
+li {
+    font-size: 1.8vw;
+}
+
+/* header */
+
+.header {
+    background-color: #ABD5E7;
+    text-transform: uppercase;
+    color: #2E33FF;
+    margin: 0;
+}
+
 .header__title {
     padding: 15px;
 }
 
-.navigation_container {
-    background-image: url(/src/background-nav-column.png);
-    background-repeat: no-repeat repeat;
+/* columns */
+
+.outter_container {
+    background: url(/src/background-nav-column.png) top left repeat-y;
+    background-size: 20%;
+}
+
+.inner_container {
+    position: relative;
+}
+
+.inner_container::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+    z-index: 1;
+    content: "";
+    background: url(/src/i.png) right top repeat-y;
+    background-size: 5%;
 }
 
 .navigation {
+    position: relative;
+    z-index: 2;
     width: 16%;
     float: left;
 }
@@ -38,11 +79,13 @@ h2 {
     padding: 15px;
 }
 
+
 .football {
-    margin-left: 25%;
+    position: relative;
+    z-index: 2;
+    margin-left: 18%;
     padding-bottom: 4%;
     padding-left: 4%;
-    background-image: url(/src/background-content-column.png);
 }
 
 .football__title {
@@ -58,32 +101,7 @@ h2 {
     float: left;
 }
 
-.football__image_container {
-    background-image: url(./src/i.png);
-    background-repeat: repeat-y;
-    background-position: 35px 0;
-    opacity: 0.4;
-    background-size: 50%;
-    width: 10vw;
-    min-height: 10vh; 
-    overflow: hidden;
-    right: 0;
-    z-index: 15;
-    position: absolute; 
-    
-}
-
-p {
-    position: relative;
-    margin: 0;
-    margin-right: 10px;
-    font-size: 1.8vw;
-    z-index: 20;
-}
-
-li {
-    font-size: 1.8vw;
-}
+/* footer */
 
 .footer {
     background-color: #ABD5E7;

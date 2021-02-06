@@ -1,0 +1,21 @@
+
+  .parent {
+    display: flex;
+  }
+  .star {
+    width: 80px;
+    height: 80px;
+    background: url(./star0.png) no-repeat;
+    background-size: contain;
+  }
+
+  .parent:hover .star {
+    background: url(./star1.png) no-repeat;
+    background-size: contain;
+  }
+
+  .parent .star:hover ~ .star {
+    background: url(./star0.png) no-repeat;
+    background-size: contain;
+  }
+  

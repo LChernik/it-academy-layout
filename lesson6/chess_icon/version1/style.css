@@ -1,0 +1,5 @@
+.info::before {
+    content: url(./extref.png);
+    margin-right: 3px;
+}
+

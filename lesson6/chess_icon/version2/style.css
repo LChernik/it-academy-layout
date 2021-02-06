@@ -1,0 +1,8 @@
+.info {
+    width: 10px;
+    height: 10px;
+    padding-right: 3px;
+    background: url(./extref.png) no-repeat;
+    display: inline-block;
+}
+

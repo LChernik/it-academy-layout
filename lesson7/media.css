@@ -1,0 +1,72 @@
+@import "style.css";
+
+
+@media all and (max-width: 48em) {
+    .outter_container{
+        background: url(./src/background_768.png) top left repeat-y;
+        background-size: 20%;
+    }
+    .footer, .header {
+        background-color: rgb(226, 145, 209);
+    }
+}
+
+@media all and (max-width: 30em) {
+    .navigation {
+        width: 16%;
+        float: right;
+        margin-right: 3%;
+    }
+    .outter_container {
+        background: url(./src/background_768.png) top right repeat-y;
+        background-size: 20%;
+    }
+    .balls {
+        background: url(./src/i.png) left top repeat-y;
+        background-size: 5%
+    }
+    .football {
+        background: rgba(255, 255, 255, 0.6);
+        margin-right: 20%;
+        padding-bottom: 4%;
+        padding-right: 4%;
+        padding-left: 7%;
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width: 20em) {
+    .navigation {
+        display: flex;
+        width: 100%;
+        float: none;
+        background-color: rgb(154, 212, 171);
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 3% 0 3% 0;
+        width: 100%;
+    }
+    li {
+        margin-right: 1%;
+    }
+    li:nth-last-child(n+7) {
+        display: none;
+    }
+    .navigation__title {
+        padding: 0;
+        margin: 3% 0 3% 3%;
+        width: 18%;
+    }
+
+    .outter_container {
+        background: none;
+    }
+
+    .football {
+        margin: 0;
+    }
+
+}

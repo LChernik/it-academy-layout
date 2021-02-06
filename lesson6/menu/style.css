@@ -1,0 +1,56 @@
+/* первый способ */
+
+.menu__first a {
+    color: green;
+    border-right: solid red 3px;
+    padding: 5px 10px 10px 10px;   
+}
+
+.menu__first a:first-child {
+    padding: 5px 10px 10px 0;  
+}
+
+.menu__first a:last-child {
+    padding: 0px 10px 0px 10px; 
+    border: none; 
+}
+
+
+/* второй способ */
+
+.menu__second ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu__second a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: green;
+}
+
+
+.menu__second li:not(:last-child) {
+    border-right: 1px solid red;
+  }
+
+
+/* третий способ */
+
+.menu__third ul {
+    padding: 0;
+    display: flex;
+    list-style: none;    
+
+}
+
+.menu__third ul a {
+    color: green;
+}
+
+.menu__third li + li:before{
+    content: " | ";
+    padding: 0 10px;
+    color: red;
+}

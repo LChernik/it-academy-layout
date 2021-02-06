@@ -1,0 +1,33 @@
+.outter_container {
+    background-image: url(./src/background_menu.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: repeat-y;
+    border: 1px solid red;
+}
+
+.inner_container {
+    background-image: url(./src/background_banner.png);
+    background-position: right top;
+    background-size: 200px;
+    background-repeat: repeat-y;
+    border: 1px solid black;
+}
+
+.menu {
+    width: 20%;
+    float: left;
+}
+
+.banner {
+    float: right;
+    width: 200px;
+}
+
+.content {
+    margin-left: 25%;
+    margin-right: 210px;
+    background-image: url(./src/background_content.png);
+    background-position: top;
+    background-repeat: repeat-y;
+}

@@ -28,6 +28,12 @@ ul {
 
 li {
     font-size: 1.8vw;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 /* header */
@@ -98,5 +104,7 @@ li {
     text-align: center;
     padding: 15px;
 }
+
+
 
 

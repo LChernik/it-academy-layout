@@ -1,0 +1,124 @@
+/* general styles */
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 2.8vw;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2.1vw;
+}
+
+p {
+    position: relative;
+    margin: 0;
+    margin-right: 10px;
+    font-size: 1.8vw;
+}
+
+ul {
+    padding-left: 20%;
+}
+
+li {
+    font-size: 1.8vw;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* header */
+
+.header {
+    background-color: #ABD5E7;
+    text-transform: uppercase;
+    color: #2E33FF;
+    margin: 0;
+}
+
+.header__title {
+    padding: 15px;
+}
+
+.buttonGame {
+    position: fixed;
+    right: 25px;
+    top: 25px;
+    color: dodgerblue;
+    font-size: 1.5vw;
+    background-color: rgb(102, 184, 102);
+    text-transform: uppercase;
+    padding: 5px 5px;
+    width: 9%;
+    text-align: center;
+    border: 1px solid dodgerblue ;
+}
+
+/* columns */
+
+.outter_container {
+    background: url(./src/background-nav-column.png) top left repeat-y;
+    background-size: 20%;
+}
+
+
+.navigation {
+    width: 16%;
+    float: left;
+}
+
+.navigation__title {
+    padding: 15px;
+}
+
+.balls {
+    background: url(./src/i.png) right top repeat-y;
+    background-size: 5%;
+}
+
+.football {
+    background: rgba(255, 255, 255, 0.6);
+    margin-left: 20%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+}
+
+.football__title {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
+
+.football__text_image {
+    max-width: 35%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+/* footer */
+
+.footer {
+    background-color: #ABD5E7;
+    clear: both;
+    text-transform: uppercase;
+    color: #2E33FF;
+}
+
+.footer__title {
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+

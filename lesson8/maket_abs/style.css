@@ -1,0 +1,54 @@
+.container {
+    height: 60vh;
+}
+
+.pictures {
+    position: absolute;
+    left: 0;
+    width: 500px;
+    height: 410px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.biohazardPic {
+    position: absolute; 
+    top: 15px;
+    left: 30px;
+}
+
+.biohazardPic:hover {
+    z-index: 10;
+}
+
+.manWomanPic {
+    position: absolute;
+    top: -10px;
+    left: 260px;
+}
+
+.manWomanPic:hover {
+    z-index: 10
+}
+
+.yinYangPic {
+    position: absolute;
+    bottom: 10px;
+    left: 168px;
+}
+
+.yinYangPic:hover {
+    z-index: 10
+}
+
+.noSmokingPic {
+    position: absolute;
+    z-index: 2;
+    top: 55px;
+    left: 140px;
+}
+
+.noSmokingPic:hover {
+    z-index: 10
+}

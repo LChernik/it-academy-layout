@@ -1,0 +1,90 @@
+body { 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .text {
+    font-size: 150%;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 40px;
+  }
+
+
+  .box {
+    width: 50vw;
+    height: 20vh;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(106, 218, 218);
+  }
+
+  .box:hover {
+    animation: colorchange 20s infinite alternate;
+  }
+
+  .items {
+    position: relative;
+    text-align: center;
+  }
+
+  .item-1, 
+  .item-2, 
+  .item-3 {
+    position: absolute;
+    top: 50px;
+    /* padding: 20px 0;
+    margin: 0;
+    margin-left: 5px; */
+  
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  .item-1{
+    animation-name: anim-1;
+  }
+  
+  .item-2{
+    animation-name: anim-2;
+  }
+  
+  .item-3{
+    animation-name: anim-3;
+  }
+  
+  @keyframes colorchange {
+    0%  { background-color: blue;}
+    10% { background-color: #8e44ad;}
+    20% { background-color: #1abc9c;}
+    30% { background-color: #d35400;}
+    40% { background-color: blue;}
+    50% { background-color: #34495e;}
+    60% { background-color: blue;}
+    70% { background-color: #2980b9;}
+    80% { background-color: #f1c40f;}
+    90% { background-color: #2980b9;}
+    100% { background-color: pink;}
+  }
+
+
+  @keyframes anim-1 {
+    0%, 8.3% { top: -50%; opacity: 0; }
+    8.3%,25% { top: 0%; opacity: 1; }
+    33.33%, 100% { top: 50%; opacity: 0; }
+  }
+  
+  @keyframes anim-2 {
+    0%, 33.33% { top: -50%; opacity: 0; }
+    41.63%, 58.29% { top: 0%; opacity: 1; }
+    66.66%, 100% { top: 50%; opacity: 0; }
+  }
+  
+  @keyframes anim-3 {
+    0%, 66.66% { top: -50%; opacity: 0; }
+    74.96%, 91.62% { top: 0%; opacity: 1; }
+    100% { top: 50%; opacity: 0; }
+  }

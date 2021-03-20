@@ -1,0 +1,30 @@
+.donation{
+    background-color: $navy;
+    color: $white;
+    .yourDonation{
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+        display: flex;
+        .yourDonationText{
+            flex-basis: 63%;
+            h3{
+                @extend %font-H3;
+                margin-top: 0;
+            }
+            p{
+                @extend %font-body;
+                margin-top: 0;
+                margin-right: 16.4375rem;
+            }
+        }
+        .yourDonationBtn{
+            margin-left: 11.9375rem;
+            p{
+                @extend %font-subheader;
+                margin-top: 0.125rem;
+                margin-bottom: 0.625rem;
+
+            }
+        }
+    }
+}

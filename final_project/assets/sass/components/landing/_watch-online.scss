@@ -1,0 +1,31 @@
+.watchOnline{
+    background-image: url(/assets/images/Landing_Background.png);
+    background-repeat: no-repeat;
+    background-position-x: 8%;
+    background-position-y: 100%;
+    .watchOnlineWrapper{
+        padding-top: 8.0625rem;
+        margin-right: 36rem;
+        padding-bottom: 8.1875rem;
+        .watchOnlineText{
+            display: flex;
+            flex-direction: column;
+            h2{
+                @extend %font-H1;
+                color: $turquoise;
+                margin-bottom: 40px;
+                margin-top: 0;
+                opacity: 60%;
+            }
+            p{
+                @extend %font-body;
+                color: $black;
+                margin-bottom: 50px;
+                margin-top: 0;
+                margin-right: 25rem;
+            }
+        }
+    }
+}
+
+

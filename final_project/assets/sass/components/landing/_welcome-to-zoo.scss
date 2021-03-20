@@ -1,0 +1,45 @@
+.welcomeToZoo{
+    display: flex;
+    margin-top: 9.375rem;
+    margin-bottom: 9.375rem;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .welcomeToZooText{
+        margin-top: 4.25rem;
+        margin-right: 2.5rem;
+        h3{
+            @extend %font-H2;
+            color: $turquoise;
+            margin-top: 0;
+            margin-bottom: 3.125rem;
+        }
+        p{
+            @extend %font-body;
+        }
+    }
+}
+
+.howWeWork{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 9.375rem;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .howWeWorkText{
+        margin-top: 7.0625rem;
+        margin-left: 2.5rem;
+        h3{
+            @extend %font-H2;
+            color: $turquoise;
+            margin-top: 0;
+            margin-bottom: 3.125rem;
+        }
+        p{
+            @extend %font-body;
+        }
+    }
+}

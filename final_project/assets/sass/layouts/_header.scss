@@ -1,0 +1,54 @@
+header{
+    background-color: $orange;
+}
+
+.headerWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    h1{
+        font-size: 0rem;
+        line-height: 0;
+        img{
+            width: 96;
+            height: 50px;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .headerNavMenu{
+        @extend %font-body;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        li:hover{
+            transition: 0.5s;
+            cursor: pointer;
+            color: $turquoise;
+        }
+        @for $li from 1 to 4 {
+            li:nth-child(#{$li}){
+                margin-right: 65px;
+            }
+        }
+    }
+    .headerSocialIcons {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        font-size: 0;
+        line-height: 0;
+        li:hover{
+            cursor: pointer;
+        }
+        @for $li from 1 to 3 {
+            li:nth-child(#{$li}){
+                margin-right: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.btnDef{
+    @extend %font-btn-text;
+    display: flex;
+    padding: 26px 45px;
+    border-radius: 5px;
+    border: none;
+    color: $white;
+    &_coloredOrange{
+        background-color: $orange;
+        &:hover{
+            background-color: $orange-dark;
+            transition: 0.5s;
+        }
+        &:active{
+            background-color: $orange-dark;
+        }
+    }
+    &:focus{
+        outline: none;
+    }
+    img{
+        margin-left: 10px;
+    }
+}
+
+.btnTrans{
+    @extend %font-btn-text;
+    position: relative;
+    display: flex;
+    padding: 0;
+    border-radius: 5px;
+    border: 1px solid $white;
+    color: $white;
+    background-color: transparent;
+    span{
+        margin: 26px 95px 26px 14px;
+    }
+    div{
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 23.5px 23.5px;;
+        background-color: $orange;
+        border-radius: 4px;
+    }
+}
